@@ -1,0 +1,53 @@
+.intro img {
+    box-shadow: 0px 0px 20px #ccc;
+    border-radius: 20px;
+}
+.serviceContainer{
+    background: rgb(250, 249, 249);
+    text-align: center
+}
+.serviceIcon {
+    font-size: 40px;
+    margin-bottom:26px;
+    color:#12B23D;
+    text-align: center;
+}
+.serviceIcon .fas{
+    background: #ffffff;
+    border: 1px solid #ccc;
+    width: 80px;
+    height: 80px;
+    padding-top:18px;
+    border-radius: 100px;
+}
+.serviceTitle{
+    text-align: center;
+    font-size: 24px;
+}
+.skillsContainer .skillSection{
+    color: #984599;
+    padding:10px;
+    margin: 4px;
+    background: rgb(252, 252, 252);
+    border: 1px solid rgb(223, 223, 223);
+    border-radius: 3px;
+    text-align: center;
+    font-size: 26px;
+    font-weight: bold;
+    transition: background linear .65s;
+}
+.skillsContainer .skillSection:hover{
+    color: #ffffff;
+    padding:10px;
+    margin: 4px;
+    background: #984599;
+    border: 1px solid rgb(223, 223, 223);
+    border-radius: 3px;
+    text-align: center;
+    font-size: 28px;
+    font-weight: bold;
+    box-shadow: 0px 0px 15px #ccc;
+}
+.skillsContainer .skillSection .skillsIcon img{
+    width:40%;
+}

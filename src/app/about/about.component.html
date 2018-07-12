@@ -1,0 +1,48 @@
+<section class="container-fluid aboutContainer">
+    <div class="container ">
+      <div class="row">
+        <div class="col-md-12 intro">
+          <h1>About <span>Me</span></h1>
+          <div class="row">
+              <div class="col-md-8">
+                <p><strong>I Am a Php Developer, WordPress Developer, Forentend Developer With More Then 4 Year Experience.</strong></p>              
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                </p>
+                <p>
+                    Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit.
+                </p>
+              </div>
+              <div class="col-md-4">
+                <img src="assets/images/padmanaban.jpeg" class="img-thumbnail" width="70%" alt="">
+              </div>
+          </div>
+        </div>
+      </div>
+    </div><!-- /.container -->
+  </section>
+  <section class="container-fluid">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6">
+          <h3 class="bars">Scrollbars</h3>
+          <div class="skillsPercentage" *ngFor="let skill of skills">
+              <h3>{{skill.title}}</h3>
+              <div class="progress">            
+                <div class="progress-bar" role="progressbar" [aria-valuenow]="skill.percentage" aria-valuemin="0" aria-valuemax="100">{{skill.percentage}}</div>
+              </div>
+          </div>
+          
+          <!-- <div class="progress">
+            <div class="progress-bar" role="progressbar" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100">50</div>
+          </div>
+          <div class="progress">
+            <div class="progress-bar" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">75</div>
+          </div>
+          <div class="progress">
+            <div class="progress-bar" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100">90</div>
+          </div> -->
+        </div>
+      </div>
+    </div>
+  </section>

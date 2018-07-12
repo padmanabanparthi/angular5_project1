@@ -1,1 +1,61 @@
 /* You can add global styles to this file, and also import other style files */
+@import "~bootstrap/dist/css/bootstrap.css";
+@import url('https://fonts.googleapis.com/css?family=Varela+Round');
+body{
+    color: rgb(134, 134, 134);
+    font-family: 'Varela Round', sans-serif;
+    font-size: 16px;
+}
+.main {
+    margin-top:55px;
+    line-height: 28px;
+}
+h1, h2, h3, h4, h5, h6 {
+    color: rgb(65, 65, 65);
+}
+h1 span {
+    color:#780CFF;
+}
+section{
+    padding: 60px 0px;
+}
+.btn {
+    border-radius: 50px;
+}
+.btn-primary{
+    background: #CCA61E;
+    border: 1px solid #CCA61E;
+}
+.navbar-brand {
+    display: inline-block;
+    padding-top: 0.3125rem;
+    padding-bottom: 0.3125rem;
+    margin-right: 5rem;
+    font-size: 2.0rem;
+    line-height: inherit;
+    white-space: nowrap;
+}
+.navbar-brand span {
+    color: #12B23D;
+}
+.sectionTitle{
+    font-size: 32px;
+    font-weight:700;
+    margin: 0 auto;
+    text-align: center;
+    position: relative;
+}
+.sectionTitle:after{
+    content:'';
+    position: absolute;
+    left: 45.3%;
+    bottom: -6px;
+    height: 4px;
+    width: 100px;
+    border-radius: 20px;
+    background: #780CFF;
+    transition: width .25s;
+}
+.sectionTitle:active:after {
+    width: 500px;
+  }

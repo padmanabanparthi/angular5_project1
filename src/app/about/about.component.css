@@ -1,0 +1,29 @@
+.single_skill .progress_bar {
+    background-color: #ccc;
+    box-shadow: 0 0 0;
+    height: 2px;
+    margin: 0 0 20px;
+    position: relative;
+    width: 100%;
+}
+.textbox {
+    height: 700px;
+  }
+  
+  .progress {
+    background-color: #ccc;
+    box-shadow: 0 0 0;
+    height: 14px;
+    margin: 0 0 20px;
+    position: relative;
+    width: 100%;
+    margin-bottom: 10px;
+  }
+  
+  .progress-bar {
+    width: 0;
+  }
+  .progress-bar span{
+      position: absolute;
+      top:10px;
+  }
